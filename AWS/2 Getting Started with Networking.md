@@ -41,7 +41,7 @@ you should be able to do the following:
 
  your architecture will look like the following example:
 
-![AWS network diagram with an EC2 instance](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/EndArchitecture.png)
+![AWS network diagram with an EC2 instance](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/cb249b2e-82d4-42af-a7ce-9ff0d62fcbc2) 
 
 _In the preceding diagram, an EC2 instance is deployed into a VPC._
 
@@ -53,7 +53,7 @@ you begin by exploring the Example VPC. The Example VPC is modeled after the def
 
 A VPC is a virtual network that is dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC.
 
-![AWS region with a VPC](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/ExampleVPC.png)
+![AWS region with a VPC](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/fcb1d885-3ca7-40a2-be55-cc0a5f3e4351)
 
 _In the preceding diagram, an VPC is deployed into an AWS region._
 
@@ -83,7 +83,7 @@ In this task, you explore a public subnet.
 
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a _public subnet_ for resources that must be connected to the internet, and use a _private subnet_ for resources that must remain isolated from the internet.
 
-![A VPC with multiple subnets](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/Subnets.png)
+![A VPC with multiple subnets](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/f80c37e0-8487-4d0c-87ef-56f45b8ba74c)
 
 _The preceding diagram includes the Example VPC and four subnets that reside inside it._
 
@@ -114,7 +114,7 @@ In this task, you explore the VPC's internet gateway (IGW).
 
 An _internet gateway_ allows communication between the resources in a VPC and the internet. It is a horizontally scaled, redundant, and highly available VPC component. It imposes no availability risks or bandwidth constraints on network traffic.
 
-![A VPC with an internet gateway](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/IGW.png)
+![A VPC with an internet gateway](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/47a6c696-1e0c-48eb-ae0f-0f508a4c0600)
 
 _In the preceding diagram, an internet gateway provides access to the internet to two subnets that reside in the VPC._
 
@@ -148,7 +148,7 @@ A _route table_ contains a set of rules, called routes, that are used to determi
 
 To use an internet gateway, a subnet's route table must contain a route that directs internet-bound traffic to the internet gateway. If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet.
 
-![Diagram of the VPC, public subnets, and the public route table](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/RouteTable.png)
+![Diagram of the VPC, public subnets, and the public route table](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/f21980ce-3d4b-4104-a02d-40394bb62d08)
 
 _In the preceding diagram, the route table directs traffic locally inside the VPC, and sends public traffic to the internet gateway._
 
@@ -190,7 +190,8 @@ In this task, you explore and update the security group used by the Example VPC 
 
 A _security group_ acts as a virtual firewall for instances to control inbound and outbound traffic. Security groups operate at the level of the elastic network interface for the instance. Security groups do not operate at the subnet level. Thus, each instance can have its own firewall that controls traffic. If you do not specify a particular security group at launch time, the instance is automatically assigned to the default security group for the VPC.
 
-![Diagram of the VPC, public subnets, public route table, and security group rules](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/SecurityGroup.png)
+
+![Diagram of the VPC, public subnets, public route table, and security group rules](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/155c9022-e79e-4d77-b32c-1f56e08aab22)
 
 _In the preceding diagram, the security group rules allow access to all ports for traffic that comes from the security group. The rules allow outbound access to the internet (0.0.0.0/0)._
 
@@ -249,7 +250,8 @@ In this task, you review the default security group that is associated with the 
 
 In this task you find the VPC and Subnet for an EC2 instance. You also test your Web-Server_SG security group configuration by confirming that you can access the EC2 instance from the internet.
 
-![a diagram of and ec2 instance deployed into a public subnet](https://labs.vocareum.com/web/2931918/1285643.0/ASNLIB/public/docs/lang/en-us/images/EC2.png) _In the preceding diagram, an EC2 instance is deployed into a public subnet in the default VPC. A security group is associated with the EC2 instance._
+![a diagram of and ec2 instance deployed into a public subnet](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/e13faf1f-d8a3-46ae-90e9-0d54efcbaf9c)
+_In the preceding diagram, an EC2 instance is deployed into a public subnet in the default VPC. A security group is associated with the EC2 instance._
 
 29.  On the **Services** menu, choose **EC2**.
 
@@ -348,19 +350,19 @@ If the configuration of a setting is not mentioned in these steps, leave the def
     
    -   For **Resources to create**, choose **VPC and more**
         
-    -   For **Name tag auto-generation**, enter `Lab`.
+   -   For **Name tag auto-generation**, enter `Lab`.
         
-    -   For **IPv4 CIDR block**, ensure that the value is `10.0.0.0/16`.
+   -   For **IPv4 CIDR block**, ensure that the value is `10.0.0.0/16`.
         
-    -   For **Availability Zones (AZs)**, choose **2**.
+   -   For **Availability Zones (AZs)**, choose **2**.
         
-    -   For **Number of public subnets**, choose **2**.
+   -   For **Number of public subnets**, choose **2**.
         
-    -   For **Number of private subnets**, choose **2**.
+   -   For **Number of private subnets**, choose **2**.
         
-    -   Expand **Customize subnets CIDR blocks**.
+   -   Expand **Customize subnets CIDR blocks**.
         
-    -   Update the subnet CIDR block values using the ranges provided by your customer.
+   -   Update the subnet CIDR block values using the ranges provided by your customer.
         
 40.  Take a moment to review the **Preview** diagram provided in the wizard.
 
@@ -399,11 +401,11 @@ Like the default security group you explored earlier, the default security group
     
 48.  In the **Inbound rules** section, choose **Add rule**, and then configure the following settings:
     
-    -   For **Type**, choose **HTTP**.
+  -   For **Type**, choose **HTTP**.
         
-    -   From the **Source type** dropdown list, choose **Anywhere IPv4**.
-        
-    -   For **Description**, enter `Allow web access`.
+  -   From the **Source type** dropdown list, choose **Anywhere IPv4**.
+       
+  -   For **Description**, enter `Allow web access`.
 
 ![29](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/62f619ec-051a-41ac-9a63-2d35fca512b2)
 
@@ -426,49 +428,49 @@ In this task, you explore the **Launch an instance** page, and enter the setting
     
 51.  In the **Launch instance** section, choose the **Launch instance** button. Configure the following options:
     
-   -   In the **Name and tags** pane, in the **Name** text box, enter `Web-Server2`.
+  -   In the **Name and tags** pane, in the **Name** text box, enter `Web-Server2`.
         
-    -   Choose an Amazon Machine Image (AMI).
+  -   Choose an Amazon Machine Image (AMI).
         
-        -   In the **Application and OS Images (Amazon Machine Image)** section, choose **Amazon Linux**.
+  -   In the **Application and OS Images (Amazon Machine Image)** section, choose **Amazon Linux**.
             
-        -   From the list of Amazon Machine Images, select **Amazon Linux 2 AMI**.
+  -   From the list of Amazon Machine Images, select **Amazon Linux 2 AMI**.
             
         
         **Note:** Do not choose **Amazon Linux 2023 AMI**.
         
-    -   Choose an Instance Type:
+ -   Choose an Instance Type:
         
-        -   Select **t2.micro**.
+ -   Select **t2.micro**.
             
-    -   In the **Key pair (login)** section, from the **Key pair name - _required_** dropdown list, choose **Proceed without a key pair (not recommended)**.
+ -   In the **Key pair (login)** section, from the **Key pair name - _required_** dropdown list, choose **Proceed without a key pair (not recommended)**.
 
 ![33](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/6274389f-5862-4276-aed1-74d31d1c8a29)
 
         
-   -   In the **Network settings** section, choose **Edit**.
+  -   In the **Network settings** section, choose **Edit**.
         
-    -   For **VPC - _required_**, choose **Lab-vpc**.
+  -   For **VPC - _required_**, choose **Lab-vpc**.
         
-    -   For **Subnet**, choose the subnet with **public1** in the name.
+  -   For **Subnet**, choose the subnet with **public1** in the name.
 
-     - Additionally we create the subnet.
+  -   Additionally, we create the subnet.
 
 ![32](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/ac93774e-1b94-4a34-a334-b0bff571fc3f)
         
-   -   For **Auto-assign public IP**, choose **Enable**.
+-   For **Auto-assign public IP**, choose **Enable**.
+
+-   For **Firewall (security groups)**, choose **Select an existing security group**.
         
-    -   For **Firewall (security groups)**, choose **Select an existing security group**.
-        
-    -   From the **Common security groups** dropdown list, choose the **Web-Server2-SG** security group.
+-   From the **Common security groups** dropdown list, choose the **Web-Server2-SG** security group.
 
 ![34](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/dc2fc63d-86f3-4603-b2b2-3aed22be36ba)
 
 
         
-   -   In the **Advanced Details** section, for **IAM instance profile**, choose **Work-Role**.
+-   In the **Advanced Details** section, for **IAM instance profile**, choose **Work-Role**.
         
-    -   In the **Advanced Details** section, copy the following commands, and paste them into the **User data** text box:
+-   In the **Advanced Details** section, copy the following commands, and paste them into the **User data** text box:
        
 ``` 
         #!/bin/bash
@@ -500,16 +502,16 @@ In this task, you explore the **Launch an instance** page, and enter the setting
 ![35](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/7110b8ed-03ce-4aba-a197-c3ba1596eeb6)
 
 
-   -   Take a moment to review the settings you entered.
+ -   Take a moment to review the settings you entered.
         
-    -   In the **Summary** section, choose **Cancel**.
+ -   In the **Summary** section, choose **Cancel**.
         
 
 Well done! Now you know how to create a custom VPC, and how to deploy a new EC2 instance into it.
 
-## Lab complete
 
-Congratulations! You have completed the lab.
+
+You have completed the lab.
 
 52.  Choose End Lab at the top of this page, and then choose **Yes** to confirm that you want to end the lab.
 
