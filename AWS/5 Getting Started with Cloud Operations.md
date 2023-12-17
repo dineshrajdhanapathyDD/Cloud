@@ -19,7 +19,7 @@ In this module, you acquire the knowledge that you need to start using cloud ope
 
  The workload that you evaluate is for a three-tier web application that consists of an Application Load Balancer, an Amazon EC2 instance, and an Amazon RDS instance. The skills that you learn will help you use AWS Pricing Calculator to estimate costs for your workloads.
 
-![Web-based application diagram](https://labs.vocareum.com/web/2931918/1597667.0/ASNLIB/public/docs/lang/en_us/images/CostEstimation01.png) _The preceding diagram includes a load balancer, an EC2 instance, and an RDS instance._
+![Web-based application diagram](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/c2c365a4-5c20-4b44-9737-b52c63bd1f5c) _The preceding diagram includes a load balancer, an EC2 instance, and an RDS instance._
 
 ### Objectives
 
