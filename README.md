@@ -1,6 +1,6 @@
 
-![20240622_013826](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/754eb19d-121b-476e-baab-daf38d10b8a5)
-Image credits: Respective owner
+<!-- ![20240622_013826](https://github.com/dineshrajdhanapathyDD/Cloud/assets/52989362/754eb19d-121b-476e-baab-daf38d10b8a5) 
+Image credits: Respective owner -->
 
 
 
