@@ -6,7 +6,8 @@ Image credits: Respective owner -->
 
 
 
-## **Difference of AWS, AZURE & GCP** --> [AWS AZURE GCP](https://github.com/dineshrajdhanapathyDD/Cloud/blob/main/AWS%20Azure%20GCP.pdf)
+## **Difference of AWS, AZURE & GCP** <!-- [AWS AZURE GCP](https://github.com/dineshrajdhanapathyDD/Cloud/blob/main/AWS%20Azure%20GCP.pdf)-->
+
 
 
 ## [AWS](https://github.com/dineshrajdhanapathyDD/Cloud/tree/main/AWS) 
