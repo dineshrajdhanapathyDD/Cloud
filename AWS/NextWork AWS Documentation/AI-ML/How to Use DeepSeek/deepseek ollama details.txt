@@ -1,0 +1,35 @@
+https://ollama.com/library - ollama library
+https://chatboxai.app/en
+
+
+http://127.x.x.1:11xxx   - api host
+
+
+
+
+
+remove deepseek model :
+ollama rm deepseek-r1:1.5b
+ollama rm deepseek-r1:8b
+
+
+remove ollama:
+
+Windows
+
+The Ollama Windows installer registers an Uninstaller application.
+
+Under Add or remove programs in Windows Settings, you can uninstall Ollama
+
+
+chat delete:
+To uninstall Chatbox, simply drag the app from your Applications folder and into your computer's Trash.
+
+
+
+
+openAI response:
+Services I used were DeepSeek and OpenAI. Key concepts I learnt include temperature settings, text variability, and structured outputs. After reviewing DeepSeek and OpenAI, I personally preferred OpenAI's clarity.
+
+Deepseek response:
+Services I used were DeepSeek, Ollama, and Chatbox. Key concepts I learnt include local inference, model quantization, and temperature control. After reviewing DeepSeek and OpenAI, I personally preferred DeepSeek for privacy-focused offline use.
