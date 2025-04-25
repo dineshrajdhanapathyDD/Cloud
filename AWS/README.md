@@ -8,11 +8,17 @@ This repository showcases my learning journey and contributions through the Next
 
 ## 📁 Project Structure
 nextwork-project/ 
+
 ├── docs/ # Documentation and learning notes 
+
 ├── workflows/ # n8n or CI/CD workflow files 
+
 ├── scripts/ # Custom automation scripts 
-├── aws-projects/ # AWS hands-on projects and IaC templates 
-├── ai-integrations/ # ChatGPT, NotebookLM, or AI tool integrations 
+
+├── aws-projects/ # AWS hands-on projects and IaC templates
+
+├── ai-integrations/ # ChatGPT, NotebookLM, or AI tool integrations
+
 └── README.md 
 
 # Project overview
@@ -41,4 +47,5 @@ AWS Community Builder | QA Team Lead | Cloud Learner
 
 
 **This project is for educational and portfolio purposes. Please give credit when referencing or forking.**
+
 Thanks to **https://community.nextwork.org/**
