@@ -9,10 +9,6 @@
 
 ---
 
-![Image](http://learn.nextwork.org/positive_purple_innocent_lemon/uploads/aws-security-kms_w0x1y2z3)
-
----
-
 # Encrypt Data with AWS KMS
 
 Protect a database using encryption with AWS KMS!
