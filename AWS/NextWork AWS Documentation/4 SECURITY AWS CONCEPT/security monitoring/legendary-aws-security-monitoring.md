@@ -9,7 +9,7 @@
 
 ---
 
-![Screenshot 2025-06-04 120410](https://github.com/user-attachments/assets/129adc63-f3ae-4ce8-aeea-2dcf36bfedce)
+![Screenshot 2025-06-04 120410](https://github.com/user-attachments/assets/7e28a0cb-ea3d-4f16-9af1-1bed2f7498cd)
 
 ---
 

@@ -9,7 +9,7 @@
 
 ---
 
-![Image](http://learn.nextwork.org/positive_purple_innocent_lemon/uploads/aws-security-monitoring_reghtjy)
+![Screenshot 2025-06-04 120410](https://github.com/user-attachments/assets/7e28a0cb-ea3d-4f16-9af1-1bed2f7498cd)
 
 ---
 
